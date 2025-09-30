@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar System</title>
+    <style>
+        h2 {
+            font-family: Verdana, sans-serif;
+            border: solid black;
+            padding: 5px;
+        }
+        ol {
+            font-size: 18px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Solar System</h2>
+    <ol>
+        <li>Mercury</li>
+        <li>Venus</li>
+        <li>Earth</li>
+        <li>Mars</li>
+        <li>Jupiter</li>
+        <li>Saturn</li>
+        <li>Uranus</li>
+        <li>Neptune</li>
+    </ol>
+</body>
+</html>
