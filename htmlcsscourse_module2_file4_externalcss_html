@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Solar System</title>
+
+        <link rel="stylesheet" href="external.css">
+    </head>
+    <body>
+        <h3>Premier League Champions</h3>
+        <table>
+            <tr>
+                <th>Club</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Liverpool</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Man City</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Man City</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Man City</td>
+                <td>2023</td>
+            </tr>
+        </table>
+    </body>
+</html>
