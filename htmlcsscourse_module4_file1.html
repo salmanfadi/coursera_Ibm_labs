@@ -1,0 +1,38 @@
+<html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Interest Calculator</title>
+    </head>
+    <body>
+        <div class = "maindiv">
+        <h1>Simple Interest Calculator</h1>
+
+        Amount <input type="number"  id="principal" >  <br/>
+        Rate <input type="range"  id="rate" min="1" max="20" value="20" step="0.25" onchange="updateRate()"> <span id="rateval">10.25</span>% <br/>
+        No. of Years <input list="numbers" name="years"  id="years" placeholder="Type or Select the year">
+        <datalist id="numbers">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+            
+        </datalist>
+          <br/>
+        Interest : <span id="result"></span><br>
+
+        <button onclick="compute()">Compute Interest</button>
+        <span id="result"></span>
+
+        </div>
+        <footer>
+            &#169; This Calculator belongs to Salman Fadi
+        </footer>
+    </body>
+</html>
